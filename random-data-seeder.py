@@ -9,8 +9,8 @@ fake = Faker()
 print("🔌 Connecting to CockroachDB...")
 conn = psycopg2.connect(
     dbname="defaultdb",
-    user="sundarganesan",
-    password="LXVoLafODmQ9yqfKKRTYKg",
+    user="user",
+    password="pwd",
     host="social-elves-11376.j77.aws-us-west-2.cockroachlabs.cloud",
     port=26257,
     sslmode="require"
